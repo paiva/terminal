@@ -2,11 +2,11 @@
 
 In the spirit of improving my development sandbox, I set out to look for a better terminal experience. I started out with this boring bash terminal in Ubuntu:
 
-![Old Terminal][/images/terminal_old.png]
+![Old Terminal](/images/terminal_old.png)
 
 The end result looks as follows: 
 
-![New Terminal][/images/terminal_new.png]
+![New Terminal](/images/terminal_new.png)
 
 This terminal provides you with a more flamboyant experince by integrating Tmuxinator with Oh-my-fish
 
@@ -42,7 +42,7 @@ To install Oh-my-fish, you need to install Fish shell v2.1.0 or above. First, le
 	tar -xzf fish_2.2.0.orig.tar.gz
 	cd fish fish-2.2.0
 ```
-Then, apply the Autotools Build
+Then, apply the **Autotools Build**
 
 ```
 	autoconf
@@ -51,7 +51,17 @@ Then, apply the Autotools Build
 	sudo make install
 ```
 
-If everything worked, you should be able to start you fish shell on your bash shell with `$ fish`, you will see that the shell looks different. To go back to bash, simply type `bash`. 
+If everything worked, you should be able to start you fish shell on your bash shell with `$ fish`, you will see that the shell looks different. To go back to bash, simply type `~> bash`. 
+
+Next we want to install Oh-my-fish
+
+	`url -L https://github.com/oh-my-fish/oh-my-fish/raw/master/bin/install | fish`
+
+To play with the coloring, you need to install a theme. You can browse themes at https://github.com/oh-my-fish/. In my case, I went ahead with the theme `bobthefish`
+
+	`omg install https://github.com/oh-my-fish/theme-bobthefish`
+
+
 # License
 
 MIT
