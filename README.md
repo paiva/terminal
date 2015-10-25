@@ -61,11 +61,11 @@ Next we want to install the Oh-my-fish framework for managing the Fish configura
 
 To play with the style and colouring, you need to install a theme. You can browse themes at https://github.com/oh-my-fish/. In my case, I went ahead with the theme `bobthefish`
 
-	omg install https://github.com/oh-my-fish/theme-bobthefish
+	omf install bobthefish
 
 This theme is powerful for Git as they use the Powerline to show lots of relevant information to you once you are working in a Git repository.
 
-The final step is to install Powerline and a font. This part is very tricky and I would recommend to read the official documentation on how to do it:
+The final step is to install **Powerline** and a font. This part is very tricky and I would recommend to read the official documentation on how to do it:
 
 * http://powerline.readthedocs.org/en/master/installation/linux.html
 * http://powerline.readthedocs.org/en/master/usage/shell-prompts.html#fish-prompt
