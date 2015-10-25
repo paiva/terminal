@@ -65,6 +65,5 @@ To play with the coloring, you need to install a theme. You can browse themes at
 
 
 # License
----
 
 MIT

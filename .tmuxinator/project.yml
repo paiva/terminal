@@ -1,0 +1,17 @@
+# ~/.tmuxinator/project.yml
+
+name: project
+root: ~/
+
+windows: 
+  - Projects:
+      root: ~/Projects/development
+      layout: main-vertical
+      panes:
+        - fish
+        - ls 
+  - LORIS:
+      root: ~/MNI/dev/Loris
+      panes: 
+        - ls
+  - Server: service nginx stop & service apache2 start
